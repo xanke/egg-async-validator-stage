@@ -1,0 +1,30 @@
+{
+  "name": "egg-async-validator-stage",
+  "version": "1.0.0",
+  "description": "the async validator plugin for egg, compatible egg-validate method",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanke/egg-async-validator-stage.git"
+  },
+  "keywords": [
+    "egg",
+    "validate",
+    "eggPlugin",
+    "async",
+    "validator"
+  ],
+  "author": "xank@qq.com",
+  "bugs": {
+    "url": "https://github.com/xanke/egg-async-validator-stage/issues"
+  },
+  "homepage": "https://github.com/xanke/egg-async-validator-stage#readme",
+  "dependencies": {
+    "async-validator": "^1.10.1",
+    "lodash": "4.17.10"
+  },
+  "eggPlugin": {
+    "name": "validate"
+  }
+}
